@@ -1,0 +1,10 @@
+{
+  "claudeCaps": {
+    "fiveHourTokens": null,
+    "weeklyTokens": null
+  },
+  "telemetry": {
+    "processFilter": ["node", "claude", "codex", "chrome", "powershell", "pwsh"]
+  },
+  "_how_to_calibrate": "Run /usage inside Claude Code when your 5-hour usage shows e.g. 40%. Note the tracker's 5h token total at that moment, then set fiveHourTokens = total / 0.40. Same idea for the weekly cap. The Claude gauges then show estimated percentages."
+}

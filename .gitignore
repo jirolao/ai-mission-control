@@ -1,0 +1,11 @@
+# dependencies (there are none — pure Node — but just in case)
+node_modules/
+
+# local overrides & logs
+settings.local.json
+*.log
+
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
